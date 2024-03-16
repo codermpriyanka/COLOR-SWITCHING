@@ -1,0 +1,40 @@
+.canvas{
+    text-align: center;
+    margin: 100px;
+   
+}
+span{
+    display: block;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border:solid black;
+    border-radius: 10px;
+}
+#pink{
+    background-color: pink;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color:green;
+}
+@media screen and (max-width: 300px) {
+    .canvas {
+        margin: 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .button {
+        height: 50px;
+        width: 50px;
+    }
+}
